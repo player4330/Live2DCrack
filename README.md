@@ -1,30 +1,30 @@
-# Live2DCrack
+#Live2DCrack
 
-## 免费使用Live2D Pro版本
+## Gratis untuk menggunakan versi Live2D Pro
 
-### 如何下载?
+### bagaimana cara mengunduh?
 
-| 如果你没有`.NET6.0`运行时(不装就一定没有) | 文件比较大 |
+| Jika Anda tidak memiliki runtime `.NET6.0` (jika Anda tidak menginstalnya, Anda tidak harus memilikinya) | Filenya relatif besar |
 | --- | --- |
-| [方式1(点击下载)](https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-all-release.zip) | github.com(如果你是从镜像站进入的github就点这个) |
-| [方式2(点击下载)](https://ghproxy.com/https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-all-release.zip) | ghproxy.com(国内镜像,如果你是直接进的github就点这个) |
+| [Metode 1 (klik untuk mengunduh)](https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-all-release.zip) | github.com (jika Anda adalah Cukup klik ini ketika Anda memasukkan github dari stasiun cermin) |
+| [Metode 2 (klik untuk mengunduh)](https://ghproxy.com/https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-all-release.zip ) | ghproxy.com (mirror domestik, klik ini jika Anda langsung ke github) |
 
-| 如果你有`.NET6.0`运行时(比如装VS2022带的) | 文件小一点 |
+| Jika Anda memiliki runtime `.NET6.0` (misalnya, dengan VS2022) | File lebih kecil |
 | --- | --- |
-| [方式1(点击下载)](https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-release.zip) | github.com(如果你是从镜像站进入的github就点这个) |
-| [方式2(点击下载)](https://ghproxy.com/https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-release.zip) | ghproxy.com(国内镜像,如果你是直接进的github就点这个) |
+| [Metode 1 (klik untuk mengunduh)](https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-release.zip) | github.com (jika Anda berasal dari cermin Cukup klik ini saat Anda memasuki github) |
+| [Metode 2 (klik untuk mengunduh)](https://ghproxy.com/https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-release.zip) | ghproxy .com (mirror domestik, klik ini jika Anda langsung ke github) |
 
-### 如何使用?
+### Cara Penggunaan?
 
-1. 下载并解压
-2. 右键管理员运行`Live2DCrack.exe`
-3. 点击`执行`按钮
+1. Unduh dan buka zip
+2. Klik kanan dan jalankan `Live2DCrack.exe`
+3. Klik tombol `Jalankan`
 
-### 如何实现的?
-反编译修改了某.jar文件
+### Bagaimana cara kerjanya?
+Dekompilasi dan modifikasi file .jar
 
-### 运行界面
+### Menjalankan antarmuka
 ![image](https://user-images.githubusercontent.com/76673990/151773462-b74ae4ae-5505-46ce-9e61-8320fa7af22d.png)
 
-### 使用效果
+### Memengaruhi
 ![image](https://user-images.githubusercontent.com/76673990/151193376-f589bff0-f34e-46d3-ae1e-cad4458ebdc1.png)
