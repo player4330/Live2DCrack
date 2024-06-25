@@ -4,7 +4,7 @@
 
 ### Requirement
 
-| You need to download [.NET6.0]([misalnya, dengan VS2022](https://dotnet.microsoft.com/en-us/download/dotnet/6.0))
+| You need to download [.NET6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0))
 
 ### How to use?
 
