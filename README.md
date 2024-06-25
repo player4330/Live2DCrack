@@ -1,5 +1,8 @@
 #Live2DCrack
 
+## Download
+
+Download at [releases](https://github.com/player4330/Live2DCrack/releases/tag/Release)
 ## Free to use Live2D Pro
 
 ### Requirement
