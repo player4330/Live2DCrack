@@ -9,7 +9,7 @@ You need to download [.NET6.0](https://dotnet.microsoft.com/en-us/download/dotne
 ### How to use?
 
 1. Unzip the folder
-2. Click `Live2DCrack.exe`
+2. Run `Live2DCrack.exe` as administrator
 
 ### Run interface
 
