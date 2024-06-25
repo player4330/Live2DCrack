@@ -1,24 +1,15 @@
 #Live2DCrack
 
-## Gratis untuk menggunakan versi Live2D Pro
+## Free to use Live2D Pro
 
-### bagaimana cara mengunduh?
+### Requirement
 
-| Jika Anda tidak memiliki runtime `.NET6.0` (jika Anda tidak menginstalnya, Anda tidak harus memilikinya) | Filenya relatif besar |
-| --- | --- |
-| [Metode 1 (klik untuk mengunduh)](https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-all-release.zip) | github.com (jika Anda adalah Cukup klik ini ketika Anda memasukkan github dari stasiun cermin) |
-| [Metode 2 (klik untuk mengunduh)](https://ghproxy.com/https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-all-release.zip ) | ghproxy.com (mirror domestik, klik ini jika Anda langsung ke github) |
+| You need to download [.NET6.0]([misalnya, dengan VS2022](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
-| Jika Anda memiliki runtime `.NET6.0` (misalnya, dengan VS2022) | File lebih kecil |
-| --- | --- |
-| [Metode 1 (klik untuk mengunduh)](https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-release.zip) | github.com (jika Anda berasal dari cermin Cukup klik ini saat Anda memasuki github) |
-| [Metode 2 (klik untuk mengunduh)](https://ghproxy.com/https://github.com/xiao-cao-x/Live2DCrack/releases/latest/download/win-x64-release.zip) | ghproxy .com (mirror domestik, klik ini jika Anda langsung ke github) |
+### How to use?
 
-### Cara Penggunaan?
-
-1. Unduh dan buka zip
-2. Klik kanan dan jalankan `Live2DCrack.exe`
-3. Klik tombol `Jalankan`
+1. Unzip the folder
+2. Click `Live2DCrack.exe`
 
 ### Bagaimana cara kerjanya?
 Dekompilasi dan modifikasi file .jar
@@ -28,3 +19,6 @@ Dekompilasi dan modifikasi file .jar
 
 ### Memengaruhi
 ![image](https://user-images.githubusercontent.com/76673990/151193376-f589bff0-f34e-46d3-ae1e-cad4458ebdc1.png)
+
+Make by : [git-xiaocao](https://github.com/git-xiaocao)
+Thank [fskhri](https://github.com/fskhri) back up it
