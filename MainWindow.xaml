@@ -18,31 +18,31 @@
             <StackPanel hc:Growl.GrowlParent="True" Margin="0,10,10,10"/>
         </ScrollViewer>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Seharusnya hanya mendukung versi di atas 4.1, saya belum mengujinya" Margin="10"/>
+            <TextBlock Text="It should only support versions 4.1 and above, I haven’t tested it." Margin="10"/>
             <DockPanel Margin="10">
-                <TextBlock Text="Direktori instalasi Live2D:"/>
+                <TextBlock Text="Live2D Installation path:"/>
                 <TextBlock Text="{Binding Path}"/>
             </DockPanel>
             <DockPanel Margin="10">
-                <TextBlock Text="Versi Live2D:"/>
+                <TextBlock Text="Live2D version:"/>
                 <TextBlock Text="{Binding Version}"/>
             </DockPanel>
             <Button
                 Margin="20,20,0,0"
                 Style="{StaticResource ButtonPrimary}" 
-                Content="Start"
+                Content="Run"
                 Command="{Binding WriteResourceCommand}"
                 />
             <Button
                 Margin="20,20,0,0"
                 Style="{StaticResource ButtonPrimary}" 
-                Content="Pilih direktori instalasi Live2D secara manual"
+                Content="Manually select the Live2D installation path"
                 Command="{Binding OpenFolderSelectoryCommand}"
                 />
             <Button
                 Margin="20,20,0,20"
                 Style="{StaticResource ButtonPrimary}" 
-                Content="Salin tautan unduhan versi terbaru"
+                Content="Copy the latest version download link"
                 Command="{Binding CopyDownloadUrlCommand}"
                 />
         </StackPanel>

@@ -53,9 +53,9 @@ namespace Live2DCrack.ViewModels
             }
             else
             {
-                Path = "获取失败";
-                Version = "未知";
-                Growl.Error("没有获取到软件安装目录,如果确定安装了Live2D请尝试关闭杀毒软件或者管理员模式运行");
+                Path = "Failed to get path";
+                Version = "Unkown version";
+                Growl.Error("The software installation path was not obtained,make sure you downloaded you downloaded Live2D, turn of anti-virus or use administrator to run");
             }
         }
 
@@ -65,16 +65,16 @@ namespace Live2DCrack.ViewModels
             {
                 if (Utils.WriteResource(Path + @"\app\lib\rlm1221.jar"))
                 {
-                    Growl.Success("成功");
+                    Growl.Success("Success");
                 }
                 else
                 {
-                    Growl.Error("失败,请尝试关闭杀毒软件或者管理员模式运行");
+                    Growl.Error("Failed,please turn off anti-virus or use administrator to run");
                 }
             }
             else
             {
-                Growl.Error("没有获取到软件安装目录");
+                Growl.Error("The software installation directory was not obtained");
             }
         }
 
@@ -82,7 +82,7 @@ namespace Live2DCrack.ViewModels
         {
             using (System.Windows.Forms.FolderBrowserDialog dialog = new())
             {
-                dialog.Description = "选择Live2D安装目录";
+                dialog.Description = "Choose Live 2D installation path";
                 dialog.AutoUpgradeEnabled = true;
                 var result = dialog.ShowDialog();
                 if (System.Windows.Forms.DialogResult.OK == result)
@@ -96,7 +96,7 @@ namespace Live2DCrack.ViewModels
                         }
                         else
                         {
-                            Growl.Error("未获取到Live2D版本,可能是选择的目录不正确");
+                            Growl.Error("The Live2D version has not been obtained. It may be that the selected path is incorrect.");
                         }
 
                     }
@@ -110,12 +110,12 @@ namespace Live2DCrack.ViewModels
         {
             try
             {
-                Clipboard.SetDataObject($"https://cubism.live2d.com/editor/bin/Live2D_Cubism_Setup_4.1.04_zh.exe");
-                Growl.Success("复制成功,浏览器下载慢请用迅雷下载");
+                Clipboard.SetDataObject($"https://www.live2d.com/en/cubism/download/editor_dl/?url=https%3A%2F%2Fcubism.live2d.com%2Feditor%2Fbin%2FLive2D_Cubism_Setup_4.1.03_1_en.exe");
+                Growl.Success("Copy success,use your browser to download");
             }
             catch (Exception e)
             {
-                Growl.Success($"复制失败{e.Message}");
+                Growl.Success($"Copy failed{e.Message}");
             }
 
         }
